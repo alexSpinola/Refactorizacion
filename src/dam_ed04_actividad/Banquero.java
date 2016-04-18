@@ -10,5 +10,18 @@ package dam_ed04_actividad;
  * @author alexander
  */
 public class Banquero {
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+    
+    private String nombre;
+    private String provincia; 
+    private String codigo; 
+    
     
 }
